@@ -19,9 +19,7 @@ This project focuses on:
 * Multi-store & multi-product forecasting
 * Exploratory Data Analysis (EDA)
 * XGBoost regression model
-* Hyperparameter tuning:
- **GridSearchCV
- **Optuna optimization
+* Hyperparameter tuning: GridSearchCV, Optuna optimization
 * Evaluation using MAE (Mean Absolute Error)
 
 ---
@@ -53,6 +51,7 @@ Prediction & Comparison
 
 * Input file: sales_data.csv
 * Key columns:
+```
 ** Date
 ** Store ID
 ** Product ID
@@ -61,6 +60,7 @@ Prediction & Comparison
 ** Promotion
 ** Inventory Level
 ** Weather Condition
+```
 
 ---
 
